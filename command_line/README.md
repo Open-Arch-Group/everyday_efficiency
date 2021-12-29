@@ -10,11 +10,15 @@ Guides in this section cover common command line commands that can make your lif
 
 ### GNU `find`
 
+- [Finding Files](./finding_files/find.md)
+
 ## Searching File Contents
 
 ### GNU `grep`
 
 ### `jq` (for JSON)
+
+- [Searching JSON Files](./searching_files/jq.md)
 
 ## Comparing Files
 
