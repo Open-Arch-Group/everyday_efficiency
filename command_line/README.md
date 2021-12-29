@@ -24,3 +24,4 @@ Guides in this section cover common command line commands that can make your lif
 
 ### GNU `diff`
 
+- [Comparing Files with diff](./comparing_files/diff.md)
