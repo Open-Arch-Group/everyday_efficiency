@@ -2,7 +2,7 @@
 
 We often find ourselves searching for a particular file or set of files in a codebase. One of the most common ways this is done is through the `find` command.
 
-In this guide, we'll be taking a look at some basic usage of the find command.
+In this guide, we'll be taking a look at some basic usage of the `find` command.
 
 ## Contact Information
 
@@ -130,5 +130,3 @@ Additionally, you can use the `-iname` option to filter by file name but in a ca
 ```
 
 Additionally you can also use `-regex`/`-iregex` to perform pattern matching using regular expressions instead of the default `fnmatch`/`glob` pattern matching.
-
-
