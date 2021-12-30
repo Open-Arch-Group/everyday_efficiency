@@ -16,6 +16,8 @@ Guides in this section cover common command line commands that can make your lif
 
 ### GNU `grep`
 
+- [Searching Files with grep](./searching_files/grep.md)
+
 ### `jq` (for JSON)
 
 - [Searching JSON Files](./searching_files/jq.md)
