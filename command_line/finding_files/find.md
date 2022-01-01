@@ -130,3 +130,17 @@ Additionally, you can use the `-iname` option to filter by file name but in a ca
 ```
 
 Additionally you can also use `-regex`/`-iregex` to perform pattern matching using regular expressions instead of the default `fnmatch`/`glob` pattern matching.
+
+## Combining Filters
+
+We can combine filters using operators like `-and`, `-or`, `!`, etc.. For example, we can search for files starting with the name `fast` or starting with `sw_`:
+
+```txt
+cba@cba$ find . -name "fast*" -or -name "sw_*"
+./code_scheduling/fast
+./code_scheduling/fast/fast_random.cpp
+./code_scheduling/fast/fast.cpp
+./hw_barrier/sw_barrier.cpp
+```
+
+The default behavior is to `and` two filters (e.g., `-name "fast" -and -type f` and `-name "fast" -type f` are equivilant).
